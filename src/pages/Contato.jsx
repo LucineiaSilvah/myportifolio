@@ -1,10 +1,14 @@
 import React from 'react';
+import { StyledMain } from './styles/StyledMain';
 
 const Contato = () => {
   return (
-    <main>
+    <>
+    <StyledMain>
       <h1>contato</h1>
-    </main>
+      
+    </StyledMain>
+    </>
   );
 }
 

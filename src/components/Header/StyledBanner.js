@@ -7,7 +7,7 @@ display: flex;
 flex-direction: column;
 
 .box-perfil{
- border: 1px solid #fff;
+
  width: 90%;
 height: 250px;
 margin:0 auto;
