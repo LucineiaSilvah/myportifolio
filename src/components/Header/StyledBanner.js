@@ -8,29 +8,36 @@ flex-direction: column;
 
 .box-perfil{
 
- width: 90%;
-height: 250px;
-margin:0 auto;
-margin-top: 100px;
+ width: 40%;
+ border-radius: 10rem 10rem 0 0;
+height: 300px;
+margin:2rem auto;
 display: flex;
 align-items: center;
 flex-direction: column;
-backdrop-filter: blur(20px);
+backdrop-filter: blur(20px) ;
 padding: 1rem;
+
 }
 .box-imagem{
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 
 }
 .foto{
   width: 100%;
-
+  height: 100%;
+  border-radius: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 .icon{
   width: 30px;
   filter: invert(100%);
 
+}
+.icon:hover{
+  filter: drop-shadow(0 4px 6px  #0087B9);
 }
 span{
   display: flex;

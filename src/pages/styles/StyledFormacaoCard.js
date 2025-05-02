@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledSkills = styled.div`
+export const StyledFormacaoCard = styled.div`
 display: flex;
   align-items: center;
   align-items: center;
@@ -18,6 +18,7 @@ flex-direction: column;
 }
 img{
   width: 100px;
+  height: 100px;
   filter: drop-shadow(2px 4px 6px #00BEEE);
 }
 
@@ -54,5 +55,4 @@ img:hover{
   }
 }
 `
-
 

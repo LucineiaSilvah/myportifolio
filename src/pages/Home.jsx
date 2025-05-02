@@ -4,7 +4,18 @@ import { StyledMain } from './styles/StyledMain';
 import { StyledHome } from './styles/StyledHome';
 import { StyledSkills } from './styles/StyledSkills';
 import CardSkills from '../components/CardSkills';
-
+import html from '../assets/html5-brands.svg';
+import css from '../assets/css3-alt-brands.svg';
+import js from '../assets/js-brands.svg';
+import node from '../assets/node-js-brands.svg';
+import bood from '../assets/bootstrap-brands.svg';
+import react from '../assets/react-brands.svg';
+import equipe from '../assets/people-group-solid.svg';
+import paciencia from '../assets/ampulheta.svg';
+import flex from '../assets/flex.svg';
+import clock from '../assets/clock-rotate-left-solid.svg';
+import curiosidade from '../assets/magnifying-glass-solid.svg';
+import { StyledSubTitle } from '../components/StyledSubTitle';
 
 const Home = () => {
   return (
@@ -20,17 +31,32 @@ const Home = () => {
 
     
       </StyledHome>
+    <StyledSubTitle>
+      Hard Skills
+    </StyledSubTitle>
      <StyledSkills >
-       <h2>
-       Hard Skills
-       </h2>
-<CardSkills/>
-       <h2>
-       Soft Skills
-       </h2>
-<CardSkills/>
-    
+     
+<CardSkills nome="html" icon={html}/>
+<CardSkills nome="css" icon={css}/>
+<CardSkills nome="js" icon={js}/>
+<CardSkills nome="bootstrap" icon={bood}/>
+<CardSkills nome="node" icon={node}/>
+<CardSkills nome="react" icon={react}/>
+  
      </StyledSkills>
+     <StyledSubTitle>
+      Soft Skills
+    </StyledSubTitle>
+    <StyledSkills >
+     
+     <CardSkills nome="trabalho em equipe" icon={equipe}/>
+     <CardSkills nome="paciencia" icon={paciencia}/>
+     <CardSkills nome="curiosidade" icon={curiosidade}/>
+     <CardSkills nome="flexibilidade" icon={flex}/>
+     <CardSkills nome="agilidade" icon={clock}/>
+    
+       
+          </StyledSkills>
     </StyledMain>
 
 

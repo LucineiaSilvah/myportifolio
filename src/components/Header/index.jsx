@@ -4,7 +4,7 @@ import github from "../../assets/github-142-svgrepo-com.svg";
 import gmail from "../../assets/gmail-svgrepo-com.svg";
 import whats from "../../assets/whatsapp-128-svgrepo-com.svg";
 import linkedin from "../../assets/linkedin-round-svgrepo-com.svg";
-import foto from '../../assets/1744328854800.png'
+import foto from '../../assets/euart.png'
 import Menu from "./Menu";
 
 const Header = () => {
@@ -17,23 +17,23 @@ const Header = () => {
           </div>
           <span>
             <p>
-              <a href="#">
+            <a href="https://github.com/LucineiaSilvah" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="" className="icon" />
               </a>
             </p>
             <p>
-              <a href="#">
+              <a href="mailto:lucineiasilva.dev@gmail.com">
                 <img src={gmail} alt="" className="icon"/>
               </a>
             </p>
             <p>
-              <a href="#">
+            <a href="https://api.whatsapp.com/send?phone=5541992676801" target="_blank" rel="noopener noreferrer">
                 {" "}
                 <img src={whats} alt="" className="icon"/>
               </a>
             </p>
             <p>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/lucineia-r-silva-frontend/" target="_blank" rel="noopener noreferrer">
                 {" "}
                 <img src={linkedin} alt="" className="icon"/>
               </a>

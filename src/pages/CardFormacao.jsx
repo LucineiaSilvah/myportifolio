@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardSkills = ({nome,icon}) => {
+const CardFormacao = ({nome,icon,detalhes}) => {
   return (
     <>
     
@@ -8,6 +8,7 @@ const CardSkills = ({nome,icon}) => {
         <li>
           <p>{nome}</p>
           <img src={icon} alt="" />
+          <p>{detalhes}</p>
         </li>
        
       </ul>
@@ -16,4 +17,4 @@ const CardSkills = ({nome,icon}) => {
   );
 }
 
-export default CardSkills;
+export default CardFormacao;
