@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const StyledSubTitle = styled.h2`
+export const StyledFooter = styled.footer`
 text-align:center;
-margin-top: 6rem;
+
 
 @media screen and (max-width:880px) {
 }

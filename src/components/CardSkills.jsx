@@ -4,14 +4,13 @@ const CardSkills = ({nome,icon}) => {
   return (
     <>
     
-      <ul>
+   
         <li>
           <p>{nome}</p>
           <img src={icon} alt="" />
         </li>
        
-      </ul>
-   
+    
     </>
   );
 }

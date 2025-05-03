@@ -4,7 +4,7 @@ import github from "../../assets/github-142-svgrepo-com.svg";
 import gmail from "../../assets/gmail-svgrepo-com.svg";
 import whats from "../../assets/whatsapp-128-svgrepo-com.svg";
 import linkedin from "../../assets/linkedin-round-svgrepo-com.svg";
-import foto from '../../assets/euart.png'
+import foto from '../../assets/luart.png'
 import Menu from "./Menu";
 
 const Header = () => {

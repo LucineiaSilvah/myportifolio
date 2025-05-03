@@ -5,6 +5,7 @@ import Home from "./src/pages/Home"
 import Resumo from "./src/pages/Resumo"
 import Experiencias from "./src/pages/Experiencias"
 import Contato from "./src/pages/Contato"
+import Footer from "./src/components/Footer/Footer"
 
 export const Router = ()=>{
   return(
@@ -19,6 +20,7 @@ export const Router = ()=>{
         
         <Route path="/contato" element={<Contato/>}/>
       </Routes>
+<Footer/>
     </BrowserRouter>
   )
 }

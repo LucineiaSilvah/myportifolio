@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledBanner = styled.header`
 background: url('https://media1.tenor.com/m/za-oUexNaXYAAAAC/good-morning-kiss.gif')no-repeat center / cover;
+/* background: url('/src/assets/bgparanatech.png')no-repeat center / cover; */
 height: 360px;
 display: flex;
 flex-direction: column;
@@ -11,11 +12,11 @@ flex-direction: column;
  width: 40%;
  border-radius: 10rem 10rem 0 0;
 height: 300px;
-margin:2rem auto;
+margin: 1.8rem auto;
 display: flex;
 align-items: center;
 flex-direction: column;
-backdrop-filter: blur(20px) ;
+background: url('/src/assets/bgparanatech.png')no-repeat center / cover;
 padding: 1rem;
 
 }
@@ -27,7 +28,6 @@ padding: 1rem;
 .foto{
   width: 100%;
   height: 100%;
-  border-radius: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -48,6 +48,10 @@ span{
 p{
  
 }
-
+@media screen and (max-width:800px) {
+  .box-perfil{
+    width:60%
+  }
+}
 
 `

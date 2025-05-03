@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Dedos fechados (4 dedos) -->
+  <path d="M18 28v-6a3 3 0 0 1 6 0v6"></path>
+  <path d="M24 28v-7a3 3 0 0 1 6 0v7"></path>
+  <path d="M30 28v-6a3 3 0 0 1 6 0v6"></path>
+  <path d="M36 28v-4a3 3 0 0 1 6 0v8"></path>
+  
+  <!-- Polegar (curvado) -->
+  <path d="M18 34c2 0 4-2 6-2"></path>
+  
+  <!-- Palma e base do punho -->
+  <path d="M18 34v4c0 8 6 12 12 12s12-4 12-12v-4"></path>
+  <rect x="24" y="50" width="16" height="6" rx="3"></rect>
+
+  <!-- Setas para cima -->
+  <path d="M14 10l4 -6l4 6"></path>
+  <path d="M30 6l4 -6l4 6"></path>
+  <path d="M46 10l4 -6l4 6"></path>
+</svg>

@@ -4,7 +4,7 @@ export const StyledHome = styled.div`
 
 font-family:  "Turret Road", sans-serif;
 text-align: center;
-height: 30vh;
+height: 60vh;
 display: flex;
 flex-direction: column;
 align-items: center;

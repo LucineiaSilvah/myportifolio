@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledFormacaoCard = styled.div`
+export const StyledFormacaoCard = styled.ul`
 display: flex;
   align-items: center;
   align-items: center;

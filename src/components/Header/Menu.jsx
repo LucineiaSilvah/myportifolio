@@ -1,28 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import { StyledMenu } from "./StyledMenu";
 import { Link } from "react-router-dom";
 
 const Menu = () => {
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Certifique-se de usar scrollY e não screenY
+      if (window.scrollY > 220) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-   
-      <StyledMenu>
+    <StyledMenu className={isFixed ? 'fixed' : 'normal'}>
       <ul>
-      <li>
-      <Link to="/">inicio</Link>
-        </li>
-        <li>
-          <Link to="/resumo">Resumo</Link>
-        </li>
-        <li>
-        <Link to="/experiencias">Experiências</Link>
-        </li>
-        <li>
-        <Link to="/contato">Contato</Link>
-        </li>
+        <li><Link to="/">Início</Link></li>
+        <li><Link to="/resumo">Resumo</Link></li>
+        <li><Link to="/experiencias">Experiências</Link></li>
+        <li><Link to="/contato">Contato</Link></li>
       </ul>
-      
-      </StyledMenu>
- 
+    </StyledMenu>
   );
 };
 

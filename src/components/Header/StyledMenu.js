@@ -1,17 +1,37 @@
 import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
-display: flex;
-width: 90%;
-margin: 1rem  auto;
-
-ul{
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  list-style: none;
-  padding: 0;
-}
+  justify-content: center;
+  align-self: center;
+  top: 0;
+  width: 95%;
+  padding: 1rem 2rem;
+  background:var(--corDoFundo);
+  transition: all 0.3s ease;
 
-`
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+    z-index: 1000;
+  }
+
+  &.normal {
+    position: relative;
+
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+  }
+`;

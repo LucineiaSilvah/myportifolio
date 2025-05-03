@@ -12,10 +12,12 @@ import bood from '../assets/bootstrap-brands.svg';
 import react from '../assets/react-brands.svg';
 import equipe from '../assets/people-group-solid.svg';
 import paciencia from '../assets/ampulheta.svg';
-import flex from '../assets/flex.svg';
+import forca from '../assets/hand-fist-solid.svg';
 import clock from '../assets/clock-rotate-left-solid.svg';
 import curiosidade from '../assets/magnifying-glass-solid.svg';
+import solucao from '../assets/solucao.svg';
 import { StyledSubTitle } from '../components/StyledSubTitle';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -52,7 +54,8 @@ const Home = () => {
      <CardSkills nome="trabalho em equipe" icon={equipe}/>
      <CardSkills nome="paciencia" icon={paciencia}/>
      <CardSkills nome="curiosidade" icon={curiosidade}/>
-     <CardSkills nome="flexibilidade" icon={flex}/>
+     <CardSkills nome="resolução de problemas" icon={solucao}/>
+     <CardSkills nome="foça de fontade e esforço" icon={forca}/>
      <CardSkills nome="agilidade" icon={clock}/>
     
        
