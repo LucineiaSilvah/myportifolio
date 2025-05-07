@@ -9,9 +9,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --corDoFundo:  #282728;
+  --imgDoFundo: '../src/assets/bg-main.png';
   --corDaFonte:  #fff;
   --corDaFonteHover:  #4a4b4b;
   background:var(--corDoFundo);
+
 }
 
 a {
