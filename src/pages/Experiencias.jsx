@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyledMain } from './styles/StyledMain';
-import CardExperiencia from './CardExperiencia'
-// import barbearia from '../assets/Macbook-Air-barbearia-sage-eight.vercel.app.png'
+import CardExperiencia from './CardExperiencia';
+import { StyledExperiencias } from './styles/StyledExperiencias'
 import { data } from '../../db'
 const Experiencias = () => {
   return (
     <>
     <StyledMain>
-
-      <h1>experiencias</h1>
-      {/* <CardExperiencia  img={barbearia} descricao={'Site para uma Barbearia'} page={'https://barbearia-sage-eight.vercel.app/'} demo={'https://github.com/LucineiaSilvah/barbearia'}/> */}
+ <StyledExperiencias>
+ <h1>experiencias</h1>
+   
       {data && data[0].destaque.map((p,i)=>{
         return(
         <CardExperiencia key={i}
@@ -21,6 +21,8 @@ const Experiencias = () => {
         repo={p.repo}
         />)
       })}
+ </StyledExperiencias>
+     
     </StyledMain>
     </>
   );

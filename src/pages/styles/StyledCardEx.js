@@ -5,12 +5,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-text-align:left;
 margin: 4rem auto;
 width: 40%;
 padding: 2rem;
-backdrop-filter: blur(50px);
 background: #000;
+
 h2{
   margin: 3rem;
 
