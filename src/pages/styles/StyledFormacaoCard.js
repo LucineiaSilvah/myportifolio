@@ -10,6 +10,9 @@ margin-top: 4rem;
 h2{
   margin: 3rem;
 }
+h1{
+  text-shadow: -2px 2px 4px black;
+}
 li{
 display: flex;
 flex-direction: column;

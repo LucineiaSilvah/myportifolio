@@ -3,8 +3,8 @@ import img2 from "./src/assets/ong.png";
 import img3 from "./src/assets/blog.png";
 import img4 from "./src/assets/barber.png";
 import padrao  from "./src/assets/bg-card.jpg";
-// import img5 from "./src/assets/Macbook-Air-barbearia-sage-eight.vercel.app.png";
-// import img6 from "./src/assets/Macbook-Air-barbearia-sage-eight.vercel.app.png";
+import img5 from "./src/assets/passatempo.png";
+ import img6 from "./src/assets/MEUSITE.png";
 // import img7 from "./src/assets/Macbook-Air-barbearia-sage-eight.vercel.app.png";
 // import img8 from "./src/assets/Macbook-Air-barbearia-sage-eight.vercel.app.png";
 // import img9 from "./src/assets/Macbook-Air-barbearia-sage-eight.vercel.app.png";
@@ -16,6 +16,23 @@ import padrao  from "./src/assets/bg-card.jpg";
 
 export const data = [
   {"destaque":[
+    {
+      "imagem":img5,
+      "titulo":"Passatempo Educativo",
+      "descricao":"Voluntariado **ATUALIZAÇÃO/MELHORIAS**",
+      "tech":"Techs:HTML5 | CSS3 | JS | PHP",
+      "repo":"#",
+      "demo":"https://passatempoeducativo.org.br/"
+     }
+   , {
+    "imagem":img6,
+    "titulo":"Site Pessoal",
+    "descricao":"Site para oferecer serviços",
+    "tech":"Techs:HTML5 | TAILWIND CSS | REACT | HOSPEDAGEM",
+    "repo":"#",
+    "demo":"https://lucineiasilvah.site/"
+   }
+ ,
      {
     "imagem":img1,
     "titulo":"Só Amores Petshop",

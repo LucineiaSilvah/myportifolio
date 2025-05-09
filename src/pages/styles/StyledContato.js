@@ -1,16 +1,15 @@
 import styled from "styled-components";
 
-export const StyledCardEx = styled.div`
+export const StyledContato = styled.section`
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-text-align:left;
-margin: 4rem auto;
-width: 40%;
-padding: 2rem;
-backdrop-filter: blur(50px);
+width: 60%;
+margin: auto;
 background: #000;
+padding: 2rem;
+border-radius: 1rem;
 h2{
   margin: 3rem;
 
@@ -19,17 +18,7 @@ h1{
   text-shadow: -2px 2px 4px black;
 
 }
-li{
-display: flex;
-flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-img{
-  width: 100%;
- border-radius: .2rem .2rem 0 0 ;
 
-}
 .texts{
   width: 100%;
   text-align: left;
@@ -40,7 +29,7 @@ img{
   align-items: center;
 }
 button{
- width: 80px;
+ width:100%;
  height: 60px;
  margin: 2rem;
  border: 3px solid white;
@@ -50,30 +39,47 @@ justify-content: center;
 border-radius:2px 2px;
 padding-bottom: .3rem;
 }
-button a{
+button p{
   background:rgb(184, 183, 183);
-  padding:  1rem .9rem;
+  padding:.8em .4rem;
+  width: 95%;
   color: rgba(3, 247, 215, 0.77) ;
-  text-shadow:1px 2px 3px  rgba(2, 249, 39, 0.4) ;
+margin-bottom: 1.1rem;
 border-radius:4px 4px;
-border: 1px solid rgb(108, 107, 107);
 }
 p{
   color: rgba(3, 247, 40, 0.77) ;
 }
 
-button:hover a {
-  padding:  .8rem;
+button:hover p {
+  padding:.7em .4rem;
+  margin-bottom: .9rem;
 }
+form{
+  width: 100%;
+  padding: 1rem;
+}
+label{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+input,textarea{
+width: 95%;
+padding: .4rem;
+margin: 1rem 0;
+
+}
+form p {
+  text-align: center;
+}
+ 
 
 @media screen and (max-width:880px) {
 display: flex;
 flex-direction: column;
 align-items: center;
 width: 80%;
-  img{
-  width: 100%;
-}
+
   h1{
     font-size: 1.6rem;
   }

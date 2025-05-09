@@ -9,13 +9,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --corDoFundo:  #282728;
-  --imgDoFundo: '../src/assets/bg-main.png';
+  --imgDoFundo: '/public/bg-main.png';
   --corDaFonte:  #fff;
   --corDaFonteHover:  #4a4b4b;
-  background:var(--corDoFundo);
+  background:var(--corDoFundo);/
 
 }
+h1{
+  text-shadow: -2px 2px 4px black;
+}
+p{
+  font-weight: bold;
+  letter-spacing: 1px;
 
+}
 a {
   font-weight: 500;
   color: var(--corDaFonte);
