@@ -6,9 +6,10 @@ export const StyledMenu = styled.nav`
   align-items: center;
   justify-content: center;
   align-self: center;
-  top: 0;
+  top: -30px;
   width: 95%;
-  padding: 1rem 2rem;
+  padding: .6rem 2rem;
+
   background:var(--corDoFundo);
   transition: all 0.3s ease;
 

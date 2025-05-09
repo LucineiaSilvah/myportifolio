@@ -9,7 +9,7 @@ import Footer from "./src/components/Footer/Footer"
 
 export const Router = ()=>{
   return(
-    <BrowserRouter>
+    <BrowserRouter >
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>

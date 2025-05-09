@@ -16,7 +16,7 @@ margin: 1.8rem auto;
 display: flex;
 align-items: center;
 flex-direction: column;
-background: url('/public/bg-tech.png')no-repeat center / cover;
+
 padding: 1rem;
 
 }

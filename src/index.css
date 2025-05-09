@@ -9,10 +9,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --corDoFundo:  #282728;
-  --imgDoFundo: '/public/bg-main.png';
   --corDaFonte:  #fff;
   --corDaFonteHover:  #4a4b4b;
-  background:var(--corDoFundo);/
+  background:var(--corDoFundo);
 
 }
 h1{
