@@ -52,10 +52,10 @@ const Home = () => {
     <StyledSkills >
      
      <CardSkills nome="trabalho em equipe" icon={equipe}/>
-     <CardSkills nome="paciencia" icon={paciencia}/>
+     <CardSkills nome="paciência" icon={paciencia}/>
      <CardSkills nome="curiosidade" icon={curiosidade}/>
      <CardSkills nome="resolução de problemas" icon={solucao}/>
-     <CardSkills nome="foça de fontade e esforço" icon={forca}/>
+     <CardSkills nome="força de vontade e esforço" icon={forca}/>
      <CardSkills nome="agilidade" icon={clock}/>
     
        
