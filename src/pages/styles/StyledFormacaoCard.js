@@ -22,11 +22,11 @@ flex-direction: column;
 img{
   width: 100px;
   height: 100px;
-  filter: drop-shadow(2px 4px 6px #00BEEE);
+  filter: drop-shadow(1px 4px 4px var(--roxoIntenso));
 }
 
 img:hover{
-  filter: drop-shadow(2px 4px 6px rgba(2, 249, 39, 0.4));
+  filter: drop-shadow(2px 4px 6px var(--roxo));
 }
 
 

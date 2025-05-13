@@ -1,5 +1,5 @@
 :root {
-  font-family:  "Turret Road", sans-serif;
+  font-family: "Turret Road", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -8,19 +8,22 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --corDoFundo:  #282728;
-  --corDaFonte:  #fff;
-  --corDaFonteHover:  #4a4b4b;
-  background:var(--corDoFundo);
-
+  --cinza: #808080;
+  --cinzaMedio: #696969;
+  --cinzaEscuro: #333333;
+  --roxo: #a020f0;
+  --roxoIntenso: #8b008b;
+  --roxoPadrao: #800080;
+  --corDaFonte: #fff;
+  --corDaFonteHover: #4a4b4b;
+  background: var(--cinza);
 }
-h1{
+h1 {
   text-shadow: -2px 2px 4px black;
 }
-p{
+p {
   font-weight: bold;
   letter-spacing: 1px;
-
 }
 a {
   font-weight: 500;
@@ -28,13 +31,11 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color:var(--corDaFonteHover);
+  color: var(--corDaFonteHover);
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-

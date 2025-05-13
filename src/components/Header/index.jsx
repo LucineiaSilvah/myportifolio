@@ -6,12 +6,12 @@ import whats from "../../assets/whatsapp-128-svgrepo-com.svg";
 import linkedin from "../../assets/linkedin-round-svgrepo-com.svg";
 import foto from '../../assets/luart.png'
 import Menu from "./Menu";
-import bg from '../../../public/bg-tech.png';
+
 const Header = () => {
   return (
     <>
       <StyledBanner>
-        <div className="box-perfil"  style={{background:`url(${bg})no-repeat center /cover`}}>
+        <div className="box-perfil" >
           <div className="box-imagem" >
             <img src={foto} alt="img" className="foto"/>
           </div>

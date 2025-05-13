@@ -16,7 +16,7 @@ margin: 1.8rem auto;
 display: flex;
 align-items: center;
 flex-direction: column;
-
+backdrop-filter: blur(10px);
 padding: 1rem;
 
 }
@@ -37,7 +37,7 @@ padding: 1rem;
 
 }
 .icon:hover{
-  filter: drop-shadow(0 4px 6px  #0087B9);
+  filter: drop-shadow(0 4px 6px var(--roxo));
 }
 span{
   display: flex;

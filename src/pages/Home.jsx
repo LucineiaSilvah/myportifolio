@@ -10,12 +10,12 @@ import js from '../assets/js-brands.svg';
 import node from '../assets/node-js-brands.svg';
 import bood from '../assets/bootstrap-brands.svg';
 import react from '../assets/react-brands.svg';
-import equipe from '../assets/people-group-solid.svg';
-import paciencia from '../assets/ampulheta.svg';
-import forca from '../assets/hand-fist-solid.svg';
-import clock from '../assets/clock-rotate-left-solid.svg';
-import curiosidade from '../assets/magnifying-glass-solid.svg';
-import solucao from '../assets/solucao.svg';
+import equipe from '../assets/people-group-solid (2).svg';
+import paciencia from '../assets/hourglass-half-solid (1).svg';
+import forca from '../assets/hand-fist-solid (1).svg';
+import clock from '../assets/clock-rotate-left-solid (1).svg';
+import curiosidade from '../assets/magnifying-glass-solid (2).svg';
+import solucao from '../assets/lightbulb-solid.svg';
 import { StyledSubTitle } from '../components/StyledSubTitle';
 import Footer from '../components/Footer/Footer';
 
