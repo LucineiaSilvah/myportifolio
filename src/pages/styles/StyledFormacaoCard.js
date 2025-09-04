@@ -22,7 +22,7 @@ flex-direction: column;
 img{
   width: 100px;
   height: 100px;
-  filter: drop-shadow(1px 4px 4px var(--roxoIntenso));
+ 
 }
 
 img:hover{

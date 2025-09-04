@@ -18,8 +18,10 @@ flex-direction: column;
   justify-content: space-around;
 }
 img{
-  width: 100px;
-  filter: drop-shadow(1px 4px 4px var(--roxoIntenso));
+
+  width: 50px;
+  height: 50px;
+ 
 }
 
 img:hover{
@@ -34,7 +36,9 @@ img:hover{
   grid-template-columns: 1fr 1fr;
   padding-left: 0;
   img{
-  width: 60px;
+ 
+  width: 80px;
+  height: 80px;
 }
   h1{
     font-size: 1.6rem;

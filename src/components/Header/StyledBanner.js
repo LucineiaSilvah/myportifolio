@@ -10,7 +10,7 @@ flex-direction: column;
 .box-perfil{
 
  width: 40%;
- border-radius: 10rem 10rem 0 0;
+
 height: 300px;
 margin: 1.8rem auto;
 display: flex;

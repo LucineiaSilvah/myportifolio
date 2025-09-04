@@ -7,7 +7,7 @@ align-items: center;
 justify-content: center;
 width: 60%;
 margin: auto;
-background: #000;
+background: rgba(0, 0, 0, 0.6);
 padding: 2rem;
 border-radius: 1rem;
 h2{
@@ -43,12 +43,11 @@ button p{
   background:rgb(184, 183, 183);
   padding:.8em .4rem;
   width: 95%;
-  color: rgba(3, 247, 215, 0.77) ;
 margin-bottom: 1.1rem;
 border-radius:4px 4px;
 }
 p{
-  color: rgba(3, 247, 40, 0.77) ;
+
 }
 
 button:hover p {
