@@ -13,6 +13,7 @@ const Experiencias = () => {
       {data && data[0].destaque.map((p,i)=>{
         return(
         <CardExperiencia key={i}
+        id={i}
         imagem={p.imagem}
         titulo={p.titulo}
         descricao={p.descricao}

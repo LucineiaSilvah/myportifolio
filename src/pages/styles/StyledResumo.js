@@ -7,8 +7,10 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+border: 2px solid black;
+box-shadow: -3px 4px black;
 
-height: 60vh;
+width: 100%;
 h1{
   font-family: "Press Start 2P", system-ui;
   font-size: 1.7rem;
@@ -23,12 +25,15 @@ h2{
 
 @media screen and (max-width:880px) {
  
- 
+
   h1{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
   h2{
     font-size: 1.2rem;
+  }
+  p{
+    font-size: .8rem;
   }
 }
 `

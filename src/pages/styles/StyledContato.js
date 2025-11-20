@@ -7,9 +7,11 @@ align-items: center;
 justify-content: center;
 width: 60%;
 margin: auto;
-background: rgba(0, 0, 0, 0.6);
+border: 2px solid black;
+color: black;
 padding: 2rem;
-border-radius: 1rem;
+background: #fff;
+
 h2{
   margin: 3rem;
 
@@ -30,30 +32,21 @@ h1{
 }
 button{
  width:100%;
- height: 60px;
+ 
  margin: 2rem;
- border: 3px solid white;
- display: flex;
-align-items: center;
-justify-content: center;
-border-radius:2px 2px;
-padding-bottom: .3rem;
+ border: 1px solid black;
+
+background: #d1d0d0ff;
+
 }
 button p{
-  background:rgb(184, 183, 183);
-  padding:.8em .4rem;
+
   width: 95%;
 margin-bottom: 1.1rem;
-border-radius:4px 4px;
-}
-p{
 
 }
 
-button:hover p {
-  padding:.7em .4rem;
-  margin-bottom: .9rem;
-}
+
 form{
   width: 100%;
   padding: 1rem;
@@ -66,6 +59,7 @@ input,textarea{
 width: 95%;
 padding: .4rem;
 margin: 1rem 0;
+background: #fff;
 
 }
 form p {

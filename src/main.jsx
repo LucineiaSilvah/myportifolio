@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 import { Router } from '../Router.jsx'
-import bg from '../public/bg-main.png'
+import bg from '../public/bg-pixel.jpg'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div  style={{background:`url(${bg})no-repeat center /cover`}}>

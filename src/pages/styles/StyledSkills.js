@@ -1,26 +1,33 @@
 import styled from "styled-components";
 
 export const StyledSkills = styled.ul`
-display: flex;
-  align-items: center;
-  align-items: center;
-  justify-content: space-around;
+display: grid;
+grid-template-columns:repeat(3,1fr);
+gap: 1rem;
 text-align: center;
 margin-top: 4rem;
 padding: 3rem 0;
+
+
 h2{
   margin: 3rem;
+  
 }
 li{
 display: flex;
 flex-direction: column;
   align-items: center;
   justify-content: space-around;
+padding: 10px;
+border: 2px solid black;
+box-shadow: -3px 4px ;
+padding: 1rem;
 }
 img{
 
   width: 50px;
   height: 50px;
+  filter: invert();
  
 }
 

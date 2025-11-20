@@ -8,7 +8,9 @@ export const StyledHome = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+color: #000;
+border: 2px solid black;
+box-shadow: -3px 4px;
   h1 {
     margin: 0rem;
     font-family: "Press Start 2P", system-ui;
@@ -22,7 +24,7 @@ export const StyledHome = styled.div`
  
   p + p {
     font-family: "Turret Road", sans-serif;
-    color: rgb(26, 237, 248);
+    color: rgba(178, 26, 248, 1);
     font-weight: 100;
 
   }

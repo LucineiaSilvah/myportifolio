@@ -7,8 +7,9 @@ align-items: center;
 justify-content: center;
 margin: 4rem auto;
 width: 40%;
-padding: 2rem;
-background: rgba(0, 0, 0, 0.6);
+padding: 1rem;
+border: 2px solid black;
+box-shadow: -4px 4px black;
 
 h2{
   margin: 3rem;
@@ -20,6 +21,7 @@ h1{
 }
 li{
 display: flex;
+
 flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -40,23 +42,21 @@ img{
 }
 button{
  width: 80px;
- height: 60px;
+ height: 40px;
  margin: 2rem;
- border: 3px solid white;
+ border: 1px solid black;
  display: flex;
 align-items: center;
 justify-content: center;
-border-radius:2px 2px;
 padding-bottom: .3rem;
+background: #fff;
+
 }
 button a{
-  background:rgb(184, 183, 183);
+color: black;
   padding:  1rem .9rem;
 border-radius:4px 4px;
-border: 1px solid rgb(108, 107, 107);
-}
-p{
-  color: rgba(3, 247, 40, 0.77) ;
+
 }
 
 button:hover {

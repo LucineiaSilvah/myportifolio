@@ -9,7 +9,7 @@ export const StyledMenu = styled.nav`
   top: -30px;
   width: 95%;
   padding: .6rem 2rem;
-  background:var(--cinzaMedio);
+  background:black;
   border-bottom: 3px solid var(--roxoIntenso);
   transition: all 0.3s ease;
 

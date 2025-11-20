@@ -16,13 +16,15 @@ margin: 1.8rem auto;
 display: flex;
 align-items: center;
 flex-direction: column;
-backdrop-filter: blur(10px);
+
 padding: 1rem;
 
 }
 .box-imagem{
   width: 250px;
   height: 250px;
+ border: 5px solid white;
+ box-shadow: -4px 4px white ;
 
 }
 .foto{

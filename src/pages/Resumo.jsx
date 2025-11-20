@@ -23,10 +23,10 @@ const Resumo = () => {
        Formações Acadêmica
       </StyledSubTitle>
 <StyledFormacaoCard>
-  <CardFormacao nome="Engenharia de software" icon={gran} detalhes="cursando"/>
-  <CardFormacao nome="Desenvolvimento web completo" icon={udemy} detalhes="cursando"/>
-  <CardFormacao nome="Gestao de TI" icon={uniasselvi} detalhes="concluido"/>
-  <CardFormacao nome="Desenvolvimento front end" icon={alura} detalhes="concluido"/>
+  <CardFormacao nome="Engenharia de software" icon={gran} detalhes="cursando" id={1}/>
+  <CardFormacao nome="Desenvolvimento web completo" icon={udemy} detalhes="cursando" id={2}/>
+  <CardFormacao nome="Gestao de TI" icon={uniasselvi} detalhes="concluido" id={3}/>
+  <CardFormacao nome="Desenvolvimento front end" icon={alura} detalhes="concluido" id={4}/>
 </StyledFormacaoCard>
 
     </StyledMain>
