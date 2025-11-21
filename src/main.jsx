@@ -10,7 +10,7 @@ import { Router } from '../Router.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div  >
+    <div style={{ overflow: 'hidden'}} >
 
     <Router />
     </div>

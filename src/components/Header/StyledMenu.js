@@ -7,12 +7,11 @@ export const StyledMenu = styled.nav`
   justify-content: center;
   align-self: center;
   top: -30px;
-  width: 95%;
+  width: 100%;
   padding: .6rem 2rem;
   background:black;
   border-bottom: 3px solid var(--roxoIntenso);
   transition: all 0.3s ease;
-
 
   &.fixed {
     position: fixed;

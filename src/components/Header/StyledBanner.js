@@ -7,6 +7,7 @@ height: 360px;
 display: flex;
 flex-direction: column;
 
+
 .box-perfil{
 
  width: 40%;
