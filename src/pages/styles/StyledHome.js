@@ -8,18 +8,19 @@ export const StyledHome = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-color: #000;
+color: var(--text-color);
 border: 2px solid black;
 box-shadow: -3px 4px;
   h1 {
     margin: 0rem;
     font-family: "Press Start 2P", system-ui;
-
+    color: var(--text-color);
     text-shadow: -2px 2px 4px black;
   }
   h2 {
     font-size: 1.2rem;
     margin: 0;
+    color: var(--text-color);
   }
  
   p + p {

@@ -32,6 +32,7 @@ padding: 1rem;
   height: 100%;
   margin: 0 auto;
   text-align: center;
+  backdrop-filter: blur(10px);
 }
 .icon{
   width: 30px;
@@ -43,16 +44,17 @@ padding: 1rem;
 }
 span{
   display: flex;
-  width: 300px;
-  
+  width: 100%;
   justify-content: space-around;
+  background:black;
 }
 p{
  
 }
 @media screen and (max-width:800px) {
   .box-perfil{
-    width:60%
+    width:100%;
+    padding:1rem 0;
   }
 }
 

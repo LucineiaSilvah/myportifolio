@@ -10,6 +10,7 @@ width: 40%;
 padding: 1rem;
 border: 2px solid black;
 box-shadow: -4px 4px black;
+background:var(--bg-color);
 
 h2{
   margin: 3rem;
@@ -49,11 +50,11 @@ button{
 align-items: center;
 justify-content: center;
 padding-bottom: .3rem;
-background: #fff;
+background:var(--bg-color);
 
 }
 button a{
-color: black;
+color: var(--text-color);
   padding:  1rem .9rem;
 border-radius:4px 4px;
 

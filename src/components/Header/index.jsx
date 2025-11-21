@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledBanner } from "./StyledBanner";
-import github from "../../assets/github-142-svgrepo-com.svg";
+import github from "../../assets/gh-removebg-preview.png";
 import gmail from "../../assets/gmail-svgrepo-com.svg";
 import whats from "../../assets/whatsapp-128-svgrepo-com.svg";
 import linkedin from "../../assets/linkedin-round-svgrepo-com.svg";

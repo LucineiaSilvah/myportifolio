@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
 text-align:center;
 display: grid;
-grid-template-columns: 1fr 1fr; /* duas colunas */
+grid-template-columns: 1fr 1fr;
 grid-template-rows: auto auto; /* duas linhas */
-background: var(--cinzaEscuro);
+background: black;
 
 .item1 {
   grid-column: 1;
@@ -19,6 +19,7 @@ background: var(--cinzaEscuro);
 .item2 img{
   width: 60px;
   margin: 2em;
+background: var(--bg-color);
 }
 .item3 {
   grid-column: 1 / 3; /* ocupa as duas colunas */

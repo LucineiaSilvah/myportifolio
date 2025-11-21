@@ -38,12 +38,12 @@ const Home = () => {
     </StyledSubTitle>
      <StyledSkills >
      
-<CardSkills nome="html" icon={html}/>
-<CardSkills nome="css" icon={css}/>
-<CardSkills nome="js" icon={js}/>
-<CardSkills nome="bootstrap" icon={bood}/>
-<CardSkills nome="node" icon={node}/>
-<CardSkills nome="react" icon={react}/>
+<CardSkills nome="html" icon={html} id={1}/>
+<CardSkills nome="css" icon={css} id={2}/>
+<CardSkills nome="js" icon={js} id={3}/>
+<CardSkills nome="bootstrap" icon={bood} id={4}/>
+<CardSkills nome="node" icon={node} id={5}/>
+<CardSkills nome="react" icon={react} id={6}/>
   
      </StyledSkills>
      <StyledSubTitle>
@@ -51,12 +51,12 @@ const Home = () => {
     </StyledSubTitle>
     <StyledSkills >
      
-     <CardSkills nome="trabalho em equipe" icon={equipe}/>
-     <CardSkills nome="paciência" icon={paciencia}/>
-     <CardSkills nome="curiosidade" icon={curiosidade}/>
-     <CardSkills nome="resolução de problemas" icon={solucao}/>
-     <CardSkills nome="força de vontade e esforço" icon={forca}/>
-     <CardSkills nome="agilidade" icon={clock}/>
+     <CardSkills nome="trabalho em equipe" icon={equipe} id={1}/>
+     <CardSkills nome="paciência" icon={paciencia} id={2}/>
+     <CardSkills nome="curiosidade" icon={curiosidade} id={3}/>
+     <CardSkills nome="resolução de problemas" icon={solucao} id={4}/>
+     <CardSkills nome="força de vontade e esforço" icon={forca} id={5}/>
+     <CardSkills nome="agilidade" icon={clock} id={6}/>
     
        
           </StyledSkills>

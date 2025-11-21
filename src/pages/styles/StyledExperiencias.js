@@ -12,12 +12,13 @@ height: auto;
   h1 {
     margin: 0rem;
     font-family: "Press Start 2P", system-ui;
-
+    color: var(--text-color);
     text-shadow: -2px 2px 4px black;
   }
   h2 {
     font-size: 1.2rem;
     margin: 0;
+    color: var(--text-color);
   }
  
   p + p {

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { StyledFooter } from "./StyledFooter";
 import logo from '../../assets/logo-1-t.png'
-import up from '../../assets/arrow-up-solid.svg'
+import up from '../../assets/up-arrow.png'
 
 const Footer = () => {
   return (

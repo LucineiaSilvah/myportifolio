@@ -6,8 +6,8 @@ const Contato = () => {
   return (
     <>
     <StyledMain>
-      <h1>contato</h1>
       <StyledContato>
+      <h1>contato</h1>
       <form 
             action="https://api.staticforms.xyz/submit" 
             method="post">

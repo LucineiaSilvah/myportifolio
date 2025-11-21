@@ -9,16 +9,17 @@ align-items: center;
 justify-content: center;
 border: 2px solid black;
 box-shadow: -3px 4px black;
-
+background: var(--bg-color);
+color: var(--text-color);
 width: 100%;
 h1{
   font-family: "Press Start 2P", system-ui;
   font-size: 1.7rem;
  font-weight: 800;
-
+    color: var(--text-color);
 }
 h2{
-
+    color: var(--text-color);
 }
 
 

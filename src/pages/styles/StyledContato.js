@@ -8,17 +8,17 @@ justify-content: center;
 width: 60%;
 margin: auto;
 border: 2px solid black;
-color: black;
+color:var(--text-color);
 padding: 2rem;
-background: #fff;
+background: var(--bg-color);
 
 h2{
   margin: 3rem;
-
+color:var(--text-color);
 }
 h1{
   text-shadow: -2px 2px 4px black;
-
+color:var(--text-color);
 }
 
 .texts{
@@ -36,11 +36,12 @@ button{
  margin: 2rem;
  border: 1px solid black;
 
-background: #d1d0d0ff;
+background:black;
+
 
 }
 button p{
-
+color: #fff;
   width: 95%;
 margin-bottom: 1.1rem;
 
