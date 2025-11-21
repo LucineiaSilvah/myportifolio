@@ -23,6 +23,6 @@ z-index:99999;
 
 @media screen and (max-width:800px) {
  .btn{
-  top: 5rem;
+position: absolute;
  }
 }
