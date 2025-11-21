@@ -22,6 +22,7 @@ flex-direction: column;
     border: 1px solid black;
     box-shadow: -3px 4px black;
     position: relative;
+      background: var(--bg-card);
 }
 span{
   position:absolute;
@@ -35,6 +36,7 @@ span{
   border: 1px solid black;
 width: 50px;
 height: 40px;
+  background: var(--bg-card);
 }
 img{
   width: 100px;

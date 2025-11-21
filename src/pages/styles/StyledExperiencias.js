@@ -24,7 +24,7 @@ height: auto;
   p + p {
     font-family: "Turret Road", sans-serif;
     color:var(--roxo);
-    font-weight: 100;
+    font-weight:bold;
 
   }
 

@@ -16,6 +16,7 @@ h2{
 span{
   position:absolute;
   color: var(--roxoIntenso);
+  background: var(--bg-card);
 text-shadow: -1px 1px 1px black;
   font-weight: bold;
   font-size: 1.3rem;
@@ -35,10 +36,11 @@ flex-direction: column;
   justify-content: space-around;
 padding: 10px;
 border: 2px solid black;
-box-shadow: -3px 4px ;
+box-shadow: -3px 4px var(--bg-color) ;
 padding: 1rem;
 position: relative;
 border-left: 6px solid var(--roxoIntenso);
+background: var(--bg-card);
 }
 img{
 

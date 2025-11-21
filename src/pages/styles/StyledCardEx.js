@@ -10,7 +10,7 @@ width: 40%;
 padding: 1rem;
 border: 2px solid black;
 box-shadow: -4px 4px black;
-background:var(--bg-color);
+  background: var(--bg-card);
 
 h2{
   margin: 3rem;
@@ -22,7 +22,7 @@ h1{
 }
 li{
 display: flex;
-
+  background: var(--bg-card);
 flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -56,7 +56,7 @@ background:var(--bg-color);
 button a{
 color: var(--text-color);
   padding:  1rem .9rem;
-border-radius:4px 4px;
+
 
 }
 

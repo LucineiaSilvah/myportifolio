@@ -2,12 +2,13 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #000000;
-  
+  --bg-card:#ffffff;
 }
 
 [data-theme="dark"] {
   --bg-color: #454343;
   --text-color: #ffffff;
+  --bg-card:#b7b5b5;
 }
 .btn{
 width: 30px;

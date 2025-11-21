@@ -17,7 +17,7 @@ import clock from '../assets/clock-rotate-left-solid (1).svg';
 import curiosidade from '../assets/magnifying-glass-solid (2).svg';
 import solucao from '../assets/lightbulb-solid.svg';
 import { StyledSubTitle } from '../components/StyledSubTitle';
-import Footer from '../components/Footer/Footer';
+
 
 const Home = () => {
   return (

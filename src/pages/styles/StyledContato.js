@@ -10,7 +10,7 @@ margin: auto;
 border: 2px solid black;
 color:var(--text-color);
 padding: 2rem;
-background: var(--bg-color);
+  background: var(--bg-card);
 
 h2{
   margin: 3rem;
@@ -51,6 +51,7 @@ margin-bottom: 1.1rem;
 form{
   width: 100%;
   padding: 1rem;
+
 }
 label{
   font-weight: bold;
